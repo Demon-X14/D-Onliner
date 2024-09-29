@@ -1,0 +1,8 @@
+# Sensitive Information 🔒
+tokens.txt
+
+# The Node Modules 🔰
+node_modules
+
+# Dist Folder (to create one run pnpm build)
+dist
