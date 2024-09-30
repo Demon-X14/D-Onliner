@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "asciiart-logo": "^0.2.7",
     "discord.js-selfbot-v13": "^3.4.0",
     "inquirer": "^11.1.0"
   },

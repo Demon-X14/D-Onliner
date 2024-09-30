@@ -12,9 +12,8 @@ To get started, make sure you have the following installed on your machine:
 
 Then, clone the repository or download the source code:
 ```bash
-clone https://github.com/Demon-X14/REPO_NAME
-cd REPO_NAME
-you are here to early I havn't pushed the app yet
+clone https://github.com/Demon-X14/D-Onliner
+cd D-Onliner
 ```
 
 ### Step 2: Install Dependencies
