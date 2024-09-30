@@ -57,8 +57,12 @@ async function main() {
       try {
         await client.login(token.trim());
       } catch (error: any) {
+        if (error.message.includes('Invalid token')) {
+          console.error(`Invalid token provided: ${token.trim()}. Please check your token.`);
+        } else {
+
         console.error(`Failed to log in with token: ${token.trim()}. Error: ${error.message}`);
-      }
+      }}
     }));
   } catch (error: any) {
     console.error(`An error occurred: ${error.message}`);

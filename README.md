@@ -44,5 +44,6 @@ If you haven't provided any tokens yet, the application will prompt you to enter
 Once you enter your tokens, the application will log in to Discord using each token and keep the accounts online.
 
 ## Important Notes
-- Keep your tokens secure and do not share them with anyone, as they provide access to your Discord account(s).
-- D-Onliner is intended for personal use only and should not be used for malicious purposes, as it may violate Discord's terms of service.
+- ###  Please check for updates regularly to ensure you are using the latest version of **D-Onliner**.
+- Keep your tokens **secure** and do not share them with anyone, as they provide access to your Discord account(s).
+- **D-Onliner** is intended for personal use only and should not be used for malicious purposes, as it may violate Discord's terms of service.
