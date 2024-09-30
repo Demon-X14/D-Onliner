@@ -1,19 +1,24 @@
 {
   "name": "d-onliner",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "dev": "tsx watch src/index.ts",
-    "start": "node .",
-    "test": "pnpm build && pnpm start"
+    "start:build": "node .",
+    "start": "pnpm build && pnpm start:build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "D-Onliner",
+    "Discord",
+    "Demon-X14"
+  ],
+  "author": "Demon-X14",
+  "license": "GPL-3.0-only",
   "dependencies": {
     "asciiart-logo": "^0.2.7",
+    "axios": "^1.7.7",
     "discord.js-selfbot-v13": "^3.4.0",
     "inquirer": "^11.1.0"
   },
