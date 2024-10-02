@@ -38,7 +38,7 @@ async function checkForUpdates() {
       console.log(
         logo({
             name: ``,
-            lineChars: 15,
+            lineChars: 8,
             padding: 3,
             margin: 2,
             borderColor: 'bold-red',
@@ -48,7 +48,7 @@ async function checkForUpdates() {
         .render()
     );
     } else {
-      console.log('You are using the latest version.');
+      console.log("You're using the latest version.");
     }
   } catch (error: any) {
     console.error(`Failed to check for updates: ${error.message}`);
@@ -56,16 +56,14 @@ async function checkForUpdates() {
 }
 
 
-
 async function main() {
 
-
-// Dis[lay the logo
+// Display the logo
   let LogoLog = console.log(
       logo({
           name: 'D-Onliner',
           font: 'Roman',
-          lineChars: 10,
+          lineChars: 9,
           padding: 2,
           margin: 3,
           borderColor: 'bold-blue',
@@ -99,7 +97,6 @@ async function main() {
       // If the file is not empty, read the tokens from the file
       tokens = readFileSync(tokensFile, 'utf8').split(',');
     }
-
     
     // Loop through each token and log in to Discord
     await Promise.all(tokens.map(async (token) => {
@@ -109,14 +106,14 @@ async function main() {
           logo({
               name: `${client.user?.tag} Is Connected.`,
               font: 'Basic',
-              lineChars: 9,
+              lineChars: 8,
               padding: 2,
               margin: 1,
               borderColor: 'bold-blue',
               logoColor: 'bold-purple',
               textColor: 'purple',
           })
-          .right(`Token: ${token.trim().substring(0, 15)}...`)
+          .right(`Token: ${token.trim().substring(0, 16)}...`)
           .render()
       );
       });

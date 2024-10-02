@@ -1,8 +1,12 @@
 {
   "name": "d-onliner",
   "version": "1.0.3",
-  "description": "",
+  "description": "A Discord account onliner tool that keeps your account(s) online as long as the program is running.",
   "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Demon-X14/D-Onliner.git"
+  },
   "scripts": {
     "build": "tsc",
     "dev": "tsx watch src/index.ts",
@@ -12,7 +16,8 @@
   "keywords": [
     "D-Onliner",
     "Discord",
-    "Demon-X14"
+    "Demon-X14",
+    "Online Tool"
   ],
   "author": "Demon-X14",
   "license": "GPL-3.0-only",
